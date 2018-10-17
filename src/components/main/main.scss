@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 $footer-height;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+}
+
+.push {
+    height: $push-height;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    min-height: $footer-height;
+    width: 100%;
+    background-color: #E3E3E3;
+    color: #5E5E5E;
+}
+
+@media screen and (min-width: 992px) {
+    footer {
+        bottom: 0;
+    }
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    border-color: white;
+    &:hover {
+        background-color: #E3E3E3;
+        color: black;
+        border-color: white;
+    }
+    &:active {
+        background-color: #ACACAC;
+        color: black;
+        border-color: white;
+    }
+}

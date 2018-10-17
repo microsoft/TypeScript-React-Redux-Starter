@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component tests Check Navigation Component Render 1`] = `
+<div
+  className="navigation"
+>
+  <div
+    className="navigation-logo"
+  >
+    <nav
+      className="navbar navbar-default"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="navbar-header"
+        >
+          <button
+            aria-expanded="false"
+            className="navbar-toggle collapsed"
+            data-target="#nav-logo"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="sr-only"
+            >
+              Toggle navigation
+            </span>
+            <span
+              className="icon-bar"
+            />
+            <span
+              className="icon-bar"
+            />
+            <span
+              className="icon-bar"
+            />
+          </button>
+          <a
+            className="navbar-brand"
+            href="/"
+          >
+            <img
+              alt="Brand"
+              src=""
+            />
+          </a>
+        </div>
+        <div
+          className="collapse navbar-collapse"
+          id="nav-logo"
+        >
+          <ul
+            className="nav navbar-nav navbar-right"
+          >
+            <li
+              className="hidden-md hidden-lg"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                Brand
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={[Function]}
+              >
+                Sign in
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="navigation"
+  >
+    <nav
+      className="navbar navbar-default"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="navbar-header"
+        >
+          <a
+            className="navbar-brand hidden-xs hidden-sm"
+            href="/"
+            onClick={[Function]}
+          >
+            Brand
+          </a>
+        </div>
+        <div
+          className="collapse navbar-collapse"
+          id="nav"
+        >
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+`;

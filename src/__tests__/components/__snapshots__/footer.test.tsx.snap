@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component tests Check Footer Component Render 1`] = `
+<footer>
+  <div
+    className="container-fluid footer"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12"
+      >
+        <ul
+          className="pull-right list-unstyled"
+        >
+          <li>
+            <a
+              href=""
+            >
+              Contact us
+            </a>
+          </li>
+          <li>
+            © Microsoft 
+            2018
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+`;
