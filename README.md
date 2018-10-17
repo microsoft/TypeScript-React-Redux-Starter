@@ -32,11 +32,11 @@ NOTE: Will start the application in localhost:3001 using webpack dev server
 
 # Testing the project
 
-```shell
-npm run test
-```
-
 Updating snapshot
 ```shell
 npm run test:update-snapshot
+```
+
+```shell
+npm run test
 ```
