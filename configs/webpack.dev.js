@@ -1,3 +1,5 @@
+// Copyright (c) Microsoft. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
 var webpack = require("webpack");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 var path = require("path");

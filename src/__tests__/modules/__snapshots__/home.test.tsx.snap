@@ -10,16 +10,6 @@ exports[`Home component tests Check Home Component Render 1`] = `
     <div
       className="hero-container"
     >
-      <img
-        alt=""
-        className="hero-img"
-        src=""
-      />
-      <h1
-        className="hero-caption one"
-      >
-        Brand
-      </h1>
       <button
         className="btn btn-white hero-sign-in"
         onClick={[Function]}
@@ -29,6 +19,7 @@ exports[`Home component tests Check Home Component Render 1`] = `
           className="glyphicon glyphicon-menu-right"
         />
       </button>
+      
     </div>
   </div>
 </div>

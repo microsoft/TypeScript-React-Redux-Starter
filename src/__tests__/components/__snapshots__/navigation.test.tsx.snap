@@ -42,10 +42,9 @@ exports[`Navigation component tests Check Navigation Component Render 1`] = `
             className="navbar-brand"
             href="/"
           >
-            <img
-              alt="Brand"
-              src=""
-            />
+            <span>
+              Brand
+            </span>
           </a>
         </div>
         <div
@@ -95,7 +94,7 @@ exports[`Navigation component tests Check Navigation Component Render 1`] = `
             href="/"
             onClick={[Function]}
           >
-            Brand
+            React-Redux Starer
           </a>
         </div>
         <div

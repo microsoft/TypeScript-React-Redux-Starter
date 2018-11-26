@@ -45,10 +45,9 @@ exports[`Routes component tests Check Routes Component Render 1`] = `
               className="navbar-brand"
               href="/"
             >
-              <img
-                alt="Brand"
-                src=""
-              />
+              <span>
+                Brand
+              </span>
             </a>
           </div>
           <div
@@ -98,7 +97,7 @@ exports[`Routes component tests Check Routes Component Render 1`] = `
               href="/"
               onClick={[Function]}
             >
-              Brand
+              React-Redux Starer
             </a>
           </div>
           <div
